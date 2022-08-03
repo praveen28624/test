@@ -8,4 +8,4 @@ EXPOSE 80
 RUN apt update -y
 RUN apt upgrade -y
 RUN apt install ffmpeg -y
-CMD ["/bin/bash", "/start.sh"]
+CMD ["/bin/bash", "/var/www/html/start.sh"]
